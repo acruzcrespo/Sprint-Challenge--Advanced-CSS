@@ -50,7 +50,7 @@ Edit this document to include your answers after each question. Make sure to lea
 
 5. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
 
-- My favorite concept of preprocessing is using the nesting features. The one who gave me more trouble is the parametrics mixins.
+- My favorite concept of preprocessing is using the nesting features on SASS. Nesting CSS lacks visual hierarchy while working with child selectors. Nesting provides a visual hierarchy as in the HTML and increases the readability and the less formats. The one who gave me more trouble is the parametrics mixins.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
