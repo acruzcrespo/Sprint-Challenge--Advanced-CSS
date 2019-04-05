@@ -273,9 +273,10 @@ footer {
 .home .walk {
   margin-top: 60px;
   border-top: 1px solid #dee2e6;
-  padding: 50px 60px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
   justify-content: center;
-  border: 1px solid red;
 }
 @media (max-width: 500px) {
   .home .walk {
