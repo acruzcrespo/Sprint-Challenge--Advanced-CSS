@@ -280,9 +280,9 @@ footer {
 @media (max-width: 500px) {
   .home .walk {
     width: 100%;
+    text-align: center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
   }
 }
 .home .walk .walk-text {
@@ -294,10 +294,19 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex-wrap: wrap;
   }
 }
 .home .walk .walk-text h3 {
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .home .walk .walk-text h3 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;

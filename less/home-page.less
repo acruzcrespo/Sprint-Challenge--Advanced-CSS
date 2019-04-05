@@ -72,20 +72,27 @@
     @media @phone {
       width: 100%;
       display: flex;
-      flex-direction: column;
-      justify-content: center;
-      
+     text-align: center;
+     display: flex;
+     flex-direction: column;
     }
     .walk-text {
       width: 50%;
       @media @phone {
         width: 100%;
         display: flex;
-          flex-direction: column;
-          justify-content: center;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
       }
       h3 {
         margin-bottom: 10px;
+        @media @phone {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+        }
       }
 
       p {
@@ -97,7 +104,6 @@
           justify-content: center;
         }
       }
-      
     }
     .btn {
         .border-radius(20px);
