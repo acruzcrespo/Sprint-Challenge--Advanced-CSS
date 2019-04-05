@@ -13,12 +13,21 @@
       flex-direction: column;
       justify-content: center;
   
-      
+      @media @phone {
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 10px;
+      }
   
       nav {
         width: 350px;
         display: flex;
         justify-content: space-evenly;
+
+        @media @phone {
+            width: 100%;
+            justify-content: space-around;
+          }
       
         a {
             font-size: 1.6rem;
